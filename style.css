@@ -532,7 +532,7 @@ header {
     justify-content: center;
 }
 
-/* Individual portfolio item styles 
+/* Individual portfolio item styles  */
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
@@ -544,4 +544,4 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto; 
-} */
+} 
