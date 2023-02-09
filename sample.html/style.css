@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url('fotor_2023-2-5_18_26_33.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+#header {
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1 {
+    color: rgb(135, 135, 24);
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.data {
+    width: 300px;
+}
+
+.data h1 {
+    text-align: center;
+    color: white;
+}
+
+.data p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+}
+
+.Email {
+    width: 500px;
+}
+
+.Email h1 {
+    text-align: center;
+    color: white;
+}
+
+.Email p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+}
+
+.web {
+    width: 300px;
+}
+
+.web h1 {
+    text-align: center;
+    color: white;
+}
+
+.web p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(24, 34, 40);
+    letter-spacing: 1.5px;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+}
+
+.work a {
+    padding: 20px;
+    background-color: yellow;
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
