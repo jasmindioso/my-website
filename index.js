@@ -18,7 +18,7 @@ if (navLinks) {
     });
   });
 }
-With these checks in place, your code should be able to run without errors, even if the navToggle or navLinks objects are not defined.
+
 
 
 
