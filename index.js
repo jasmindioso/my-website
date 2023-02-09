@@ -1,22 +1,19 @@
 const navToggle = document.querySelector('.nav-toggle');
-let navLinks;
+const navLinks = document.querySelectorAll('.nav__link');
 
-function initNavLinks() {
-  navLinks = document.querySelectorAll('.nav__link');
-
-  navLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-      document.body.classList.remove('nav-open');
-      const page = link.getAttribute('href');
-      console.log(page);
-      window.open(page, '_self');
-    });
+window.onload = function() {
+  navToggle.addEventListener('click', () => {
+    document.body.classList.toggle('nav-open');
   });
-}
+};
 
-navToggle.addEventListener('click', () => {
-  document.body.classList.toggle('nav-open');
+navLinks.forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.body.classList.remove('nav-open');
+    const page = link.getAttribute('href');
+    console.log(page);
+    window.open(page, '_self');
+  });
 });
 
-initNavLinks();
